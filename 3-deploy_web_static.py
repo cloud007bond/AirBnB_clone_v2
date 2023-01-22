@@ -7,7 +7,7 @@ from fabric.api import local
 from fabric.api import put
 from fabric.api import run
 
-env.hosts = ["52.91.121.146", "3.85.136.181"]
+env.hosts = ["54.160.85.72", "35.175.132.106"]
 
 
 def do_pack():
@@ -73,4 +73,3 @@ def deploy():
     if file is None:
         return False
     return do_deploy(file)
-
